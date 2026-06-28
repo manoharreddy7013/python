@@ -1,0 +1,21 @@
+variable:-
+
+variables are the memory location of stored data
+in an single variable we can store single value or multiple values 
+variable can stor all kinds of data init 
+
+comments:- 
+comments are used in programming to explain the code or written for new user understang purpose
+comments are wriiten using # for single comment and tripple double qotes(""")
+
+data types:-
+variable store different data that performs different tasks 
+int 
+float 
+complex
+string 
+boolean
+
+to know which data is stored in variable we use type() 
+
+
