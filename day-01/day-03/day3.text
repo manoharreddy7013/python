@@ -1,0 +1,59 @@
+
+casting 
+string 
+slicing 
+modifying
+concatination of string 
+
+casting is used to convert the given datatype into another datatype 
+ex:-
+a = 10 
+b=float(a)
+print(b)
+
+here we are converting int data type to float data type 
+a = 10 
+b=str(a)
+print(b)
+
+here we are converting from int data type to another string data type 
+
+a = "10" 
+b=int(a)
+print(b)
+
+here we are converting string data type to int data type
+
+string:-
+
+the data inside quotes are said to be string 
+strings are the text and those are surrounded by single quotes or double quotes
+ex:-
+print('manu')
+print("manohar")
+
+slicing:-
+slicing is used to return the range of characters from a string 
+ex:-
+d = "manohar reddy"
+print(d[0:7])
+
+
+string modifing 
+changing lower case string to uppercase string and uppercase string to lowercase string 
+ex:-
+d = "manohar reddy"
+print(d.upper()) #lower to uppercase 
+
+e = "MANOHAR REDDY"
+print(e.lower()) #uppercase to  lowercase 
+
+
+concatination 
+combining two variable data to single variable data 
+ex:-
+a = "manohar"
+b = "reddy"
+c = a + b 
+print(c)
+
