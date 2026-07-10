@@ -1,0 +1,69 @@
+comparision operators:-
+comparision operators are used to compare two variables and if condition becomes correct it prints True 
+if the condition is not correct it prints False 
+ex:-
+a = 10
+b = 20
+print(a == b )# here the condition is incorrect so it prints Falase 
+print(a != b )# here the condition is correct so it prints True
+print(a >= b )# here the condition is incorrect so it prints Falase
+print(a <= b )# here the condition is incorrect so it prints Falase
+print(a > b )# here the condition is incorrect so it prints Falase
+print(a < b )# here the condition is correct so it prints True
+
+logical operator:-
+logical operator compares two statements and prints True or False based on condition 
+and logical operator:- both the condtions are correct then it prints True if not it prints False
+ex:-
+a = 10
+print(a>5 and a<15) # here and logical operater is used it defines both conditions are correct then it prints(True) 
+
+or logical operator :- in this any one condition must be correct then it prints True
+ex:-
+a = 10
+print(a>5 or a<15) # here or logical operater is used it defines any one condition is correct then it prints(True) 
+
+not logical operator:- in condition it reverses the result  
+ex:-
+a = 10
+print(not(a>5 and a<15)) # here not logical operater is used it reverses the the output if correct then it prints(False) 
+
+membership operator:-
+this operator defines if the value is present in it or not 
+1. IN operator:-
+it prints True if the true if the value is present in it 
+ex:- 
+a = 1,2,3,4
+print(1 in a)
+
+2.NOT IN operator:-
+b = 14,15,16,17,18,19,20
+print(11 not in b)
+
+bitwise operator:-
+bitwise operator compare the binary value and prints the value based on condition 
+& operator(and) :- it compares both binary value and prints 1 if both values are 1 else prints 0 
+ex:-
+a = 10
+b = 20
+print(a&b)
+
+| operator(or) :- it compares both binary value and prints 1 if any 1 value are 1 else prints 0
+a = 10
+b = 20
+print(a|b)
+
+^ operator(not) :- it compares both binary value and inverts the values then 0 becomes 1 and 1 becomes 0
+a = 10
+b = 20
+print(a^b)
+
+<< operator(left shift) :- it moves the binary value left and adds o's at right side 
+a = 10
+b = 20
+print(a<<b)
+
+>> operator(right shift) :- it  moves binary values to right and add 0's at left side 
+a = 10
+b = 20
+print(a>>b)
