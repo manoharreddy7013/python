@@ -1,0 +1,60 @@
+list 
+tuple 
+set 
+
+list:-
+list is one of inbuilt datatype in python 
+it is used to store multiple items in a single variable 
+lists are created using square brackets
+lists is mutable(can change) datatype and heterogenous data is stored 
+ex:-
+list = ["manohar",24,15,"cai","c"]
+print(list)
+
+accessing list:
+ex:-
+list = ["manohar",24,15,"cai","c"]
+print(list[1]) # prints all list data 
+print(list[1:4]) # prints from index 1 to index 3
+print(list[-1]) #prints last index item 
+print(list[:3]) #prints from starting index to second item index value
+print(list[1:]) #starts from index 1 value to final index item 
+list[1]=23 # used to change data 
+list.append("manu")# to add the data
+list.insert("mano")# another technique to add the data 
+list.remove("mano") # used to remove item 
+list.pop(1) #used to remove specif item in a list
+
+
+tuple:-
+tuple is a collection of homogeneous data type 
+tuple can be created using brackets 
+tuple is used to store multiple value in tuple 
+data cant be change(immutable)
+if we want to add some data into tuple means we need to convert into list and need to add and convert into tuple 
+ex:-
+tup = ("ranjith","manohar","madesh")
+print(tup)
+
+set:-
+sets are used to store multiple items in it 
+it is created using curly braces 
+it is in unorder,unchangeble
+it wont allow duplicates 
+ex:-
+set = {"ranjith","manohar","madesh",22,24,22,True,False,2}
+print(set)
+to add data:
+ex:- 1
+set = {"ranjith","manohar","madesh",22,24,22,True,False,2}
+set.add("manu")
+print(set)
+
+ex:- 2
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
+
+thisset.update(tropical)
+
+print(thisset)
+
