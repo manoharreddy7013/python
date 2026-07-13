@@ -1,0 +1,75 @@
+dictionary:-
+dictionary are used to store data using key:value pairs 
+it is created using curly braces
+dictionaries are ordered,changeble,doesnot allow duplicates. 
+ex:-
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+accessing using key:-
+ex:-
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict.get("model")
+print(x)
+
+conditional statements:-
+python supports an usual logical condition from mathematics 
+if,elif,else,nestedif
+if condition checks wether condition is true or false
+ex:-
+x = 10
+if x > 5:
+    print(true)
+
+ex:-    
+else:-
+else condition will be checked and prints the statement when if condition false 
+ex:-
+x = 10
+if x > 10:
+    print(True)
+else:
+    print(False)
+
+elif:-
+elif condition is used to check number of n statements whether condition is true or false
+elif condition cannot be written without if condition
+ex:-
+x = 10
+if x > 10:
+    print(True)
+elif x >= 10:
+    print("x is greater than or equal to 10")
+elif x <= 10:
+     print(x is less than or equal to 10)
+else:
+    print(False)
+
+pass:-
+pass statement does nothing it prevents the program from error
+ex:-
+x = 15
+if x > 10: 
+   pass 
+else:
+    print("both the nested if condotons are false")
+
+
+nested if:-
+an if condition with in another if condition is said to be nested if condition 
+ex:-
+x = 15
+if x > 10: 
+   if x >= 15:
+       print("nested condition is true")
+else:
+    print("both the nested if condotons are false")
+    
