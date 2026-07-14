@@ -1,0 +1,74 @@
+match statement:-
+match statement can be used instead of many if and else statement 
+it executes one instead of executing multiple statements 
+ex:-
+day = 4
+match day:
+    case 1:
+        print("this is day one ") 
+    case 2:
+        print("this is day two ") 
+    case 3:
+        print("this is day three ") 
+    case 4:
+        print("this is day four ") 
+    case 5:
+        print("this is day five ") 
+    case 6:
+        print("this is day six ")
+    case 7:
+        print("this is day seven ")  
+
+it prints statement which case is matches to day variable
+
+combine values using | operator
+ex:-
+day = 4
+match day:
+    case 1|2|3|4|5:
+        print("week days") 
+    case 6|7:
+        print("week off ") 
+  
+
+using if statement on match case 
+ex:-
+month = 1
+day = 4
+match day:
+    case 1|2|3|4|5 if month == 1 :
+        print("week days") 
+    case 1|2|3|4|5 if month ==2:
+        print("week off ")  
+
+Loops:-
+loops are used when we want to print data repeatedly same data we use this loops 
+while 
+for 
+while loop is used  when we dont  know how many data has to print  repeatedly in those cases we uses while loop 
+it prints statements until the condition becomes false 
+ex:-
+a = 10
+while a <= 15:
+    print("11,12,13,14,15")
+
+control statements:-
+control statements are used to control the program 
+break 
+break is used to terminate the program when the condition meets 
+ex:-
+a = 10
+while a <= 15:
+    print("11,12,13,14,15")
+    if a == 13:
+        break
+        i += 1
+
+continue:-
+continue is used to skip the current iteration when condition meets 
+a = 10
+while a <= 15:
+    print("11,12,13,14,15")
+    if a == 13:
+        continue 
+        i += 1  
