@@ -1,0 +1,33 @@
+for loop:-
+for loop is used to execute over a sequence of list or tuple or string or dictionary
+ex:-
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+for loop using break control statement:-
+ex:-
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+      break 
+  print(x)
+
+for loop using continue control statement:-
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+      continue  
+  print(x)
+
+for loop using range function:-
+ex:-
+for i in range(0,5):
+    print(i)
+
+for loop using else condition statement:-
+for i in range(0,5):
+    print(i)
+else:
+    print("finally finished")
+
