@@ -1,0 +1,58 @@
+function:-
+function is ablock of reusable code that can be used when ever required by calling it
+it reduces repeating code writing
+it is written in structured format 
+function is defined using def keyword
+ex:-
+def add():
+    print("this is a finction")
+
+add()
+
+ex2:-
+def data():
+    return "p manohar reddy"
+
+manu =data()
+print(manu)
+
+ex:-
+def fahrenheit_to_celcious(fahreheit):
+    return (fahrenheit - 32) * 5 / 9
+
+fahrenheit_to_celcious(57) 
+
+function using arguments:-
+the message that are passed to function is known as arguments 
+we can pass as many  as required for us and seperated using comma
+arguments are written inside the paranthesis
+ex:-
+def mail(valid):
+    return (valid + "references")
+
+print(mail("mail"))
+
+function using parameter:-
+parameter are the variable written inside function braces
+based on number of parameters passed inside function we need to pass same number of arguments 
+ex:-
+def full_name(first_name,last_name):# first_name,last_name are the parameters 
+    return first_name + last_name 
+
+print(full_name("manohar","reddy")) # manohar,reddy are the arguments  
+
+default arguments:-
+default arguments are helpful when we wont pass arguments it uses the arguments passed in sidde function as adefault value 
+ex:-
+def full_name(first_name,last_name="reddy"):# first_name,last_name are the parameters and reddy is default argument 
+    return first_name + last_name 
+
+print(full_name("manohar"))# manohar are the argument
+
+passing different data types to function:-
+def my_funnction(fruits):
+    for fruit in fruits:
+        return fruit 
+
+my_fruits = ["apple","banana","orange"]
+print(my_function(my_fruits))
