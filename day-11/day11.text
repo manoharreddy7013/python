@@ -1,0 +1,67 @@
+args,kwargs
+scope 
+decorations 
+
+args:-
+args are the messages that are passed to an variable 
+we pass many arguments at a time and unable to count (or) remember in that cases we use these args 
+* should be written before parameter to define args 
+
+ex:-
+def my_function(*names):
+    for name in names:
+        print(name)
+
+my_function("manohar","manu","mano") 
+
+in args we can pass different data 
+ex:-
+def my_function(*number):
+    for numb in number:
+        print(numb)
+
+my_function(7,0,1,3,9,2,3,2,4,3)
+
+if need to write normal parameter that should be written before the args 
+ex:-
+def my_function(name*number):
+    print(name)
+    for numb in number:
+        print(numb)
+
+my_function("manohar",7,0,1,3,9,2,3,2,4,3)
+
+kwargs:-
+kwargs are the the arguments that are passed using keyword like dictionary data 
+ex:- 
+def my_function(**names):
+    for name in names:
+        print(name)
+
+my_function(name="manohar",age=24,marrital_status=True)
+
+scope:-
+an variable is available where its created is called scope 
+ex:-
+def my_scope():
+    x = 10 # variable is created inside function so it is available only inside function 
+    print(x)
+
+my_scope()
+
+ex2:-
+def my_scope():
+    x = 10 # variable is created inside function so it is available only inside function 
+    def inner_scope():
+        print(x)
+    inner_scope()
+
+my_scope()
+
+ex:-
+x = 15 #this is a variable that written in main body of python code and its a global scope it can be accessed both inside and outside of afunction 
+def my_function():
+    print(x)
+
+my_function()
+print(x)
