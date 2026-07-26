@@ -1,0 +1,30 @@
+recursion
+generators
+
+recursion:-
+recursion is function when calling itself 
+it is a common mathematical operation
+it is benefitial to go through loop and reach the result
+ex:-
+def countdown(n):
+  if n <= 0:
+    print("Done!")
+  else:
+    print(n)
+    countdown(n - 1)
+
+countdown(5)
+
+generator:-
+Generators are functions that can pause and resume their execution.
+
+When a generator function is called, it returns a generator object, which is an iterato
+ex:-
+def count_up_to(n):
+  count = 1
+  while count <= n:
+    yield count
+    count += 1
+
+for num in count_up_to(5):
+  print(num)
