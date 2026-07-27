@@ -1,0 +1,62 @@
+range 
+arrays
+
+range :-
+range function is used to print immutable sequence of number of data repeatedly 
+
+calling range using single argument
+ex:-
+x = range(10)
+print(x) # here we are printing values in x variable 
+print(list(x)) # here we are printing the values in list format 
+print(tuple(x)) # here we are printing thhe values in tuple format 
+
+calling the range using two argument 
+while we use two values as arguments first value will act as starting point,
+second value will act as stopping value
+ex:-
+x = range(3,10) 
+print(x) # here we are printing values in x variable 
+print(list(x)) # here we are printing the values in list format 
+print(tuple(x)) # here we are printing thhe values in tuple format 
+
+calling range using three arguments
+ex:- 
+x = range(3,10,2) # 3 argument act as starting value and 10 argument act as stopping value,2 act as step value
+print(x) # here we are printing values in x variable 
+print(list(x)) # here we are printing the values in list format 
+print(tuple(x)) # here we are printing thhe values in tuple format 
+
+range can be use in for loop is used when we know number of times we need to print 
+ex:-
+for i in range(10):
+   print(i)
+
+membership testing in range function 
+ex:-
+x = range(10)
+print(6 in x)
+
+arrays:-
+arrays are use to store multiple values in single variable
+but only single datatype can be stored in single array variable 
+ex:-
+cars = ["tata","suzuki","bmw"]
+print(cars)
+
+using range in array 
+ex:-
+cars =  ["tata","suzuki","bmw"]
+for car in cars:
+    print(car)
+
+finding length of variable 
+ex:-
+cars =  ["tata","suzuki","bmw"]
+print(len(cars))
+
+changing value in array
+ex:-
+cars =  ["tata","suzuki","bmw"]
+cars[1] = "volvo"
+print(cars)
