@@ -1,0 +1,19 @@
+iterator:-
+iterator is an object that contains countable number of values 
+it is an object that traverse through the values  
+in python iterator is an object that implements iterator protocol like __iter__(), __next__()
+list,string,tuple,dictionary all are iterable
+
+ex:-
+bhav = ["manohar","mano","manu"]
+na = iter(bhav) # iter enter into each value in variable
+
+print(next(na)) # next prints each one value at once 
+print(next(na))
+print(next(na))
+
+we can use for loop in iterator 
+ex:-
+ bhava = ["manohar","mano","manu"]
+ for i in bhava:
+     print(i)
