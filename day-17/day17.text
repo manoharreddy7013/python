@@ -1,0 +1,27 @@
+datetime:-
+datetime is not a datatype its own 
+we can import  datetime to work with datetime module 
+ex:-
+import datetime
+
+a = datetime.datetime.now()
+print (a)
+
+printing year and day 
+ex:-
+import datetime
+x = datetime.datetime.now()
+print(x.year)
+print(x.strftime("%A"))
+
+creating date module 
+ex:-
+import datetime
+x = datetime.datetime(2026,07,31)
+print(x)
+
+creating date module 
+ex:-
+import datetime
+x = datetime.datetime(2026,07,31)
+print(x.strftime("%B"))
