@@ -1,0 +1,30 @@
+math:-
+python has many built in function that is used to perform mathematical operations on values 
+ex:-
+1.min:- finds the minimum value in the given data 
+x = min(54,73,21)
+print(x)
+2.max:- finds the maximum value in the given data
+y = max(54,73,21)
+print(y) 
+absolute:- provides the  positive specific value 
+a = abs(-245)
+print(a)
+python has built in module 
+
+math module:-
+math module is used to extend mathematical function 
+in this math module must and should do 
+ex:-
+import math 
+b = math.sqrt(49)
+print(b)
+
+c = math.ceil(15.4)
+print(c)
+
+d = math.floor(15.4)
+print(d)
+
+e = math.pi()
+print(e)
