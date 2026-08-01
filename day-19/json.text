@@ -1,0 +1,78 @@
+json:-
+we need to import the module 
+json is a text,that written using javascript
+we can convert the data from python to json using json.dump
+we can parse the data using json.loads
+
+parsing the data using json.loads 
+ex:-
+
+import json 
+x = '{"name":"manohar","age":24,"branch":"cai","grade":"c"}'
+y = json.load(x)
+
+print(y[age])
+
+
+converting the data from python to json using json.dump
+import json 
+x = {
+    "name":"manohar",
+    "age":24,
+    "branch":"cai",
+    "grade":"c"
+}
+y = json.dump(x)
+
+print(y)
+
+
+you can conver python objects into json 
+
+dict
+list
+tuple
+string
+int
+float
+True
+False
+None
+Example
+Convert Python objects into JSON strings, and print the values:
+
+import json
+
+print(json.dumps({"name": "John", "age": 30}))
+print(json.dumps(["apple", "bananas"]))
+print(json.dumps(("apple", "bananas")))
+print(json.dumps("hello"))
+print(json.dumps(42))
+print(json.dumps(31.76))
+print(json.dumps(True))
+print(json.dumps(False))
+print(json.dumps(None))
+
+indent:-
+indent in json is used to provide space in begining of every line
+ex:-
+x = {
+    "name":"manohar",
+    "age":24,
+    "branch":"cai",
+    "grade":"c"
+}
+y = json.dump(x,indent=4)
+print(y)
+
+seperators:-
+used to seperate the data using , or provided symbols
+ex:-
+x = {
+    "name":"manohar",
+    "age":24,
+    "branch":"cai",
+    "grade":"c"
+}
+y = json.dump(x,seperator=(":",":"))
+print(y)
