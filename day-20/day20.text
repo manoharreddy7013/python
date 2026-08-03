@@ -1,0 +1,25 @@
+pip:-
+pip is a python package manager or python modules as you like 
+
+how to check pip is installed or not 
+ex:-
+pip --version
+
+if installed it shows version if not installed it is easy to install 
+https://pypi.org/project/pip/ 
+
+packages:-
+packages are the files that are required for modules 
+modules are code libraries that are used in projects
+
+how to install packages 
+ex:-
+pip install and package_name
+
+how to remove packages 
+ex:-
+pip uninstall package_name 
+
+how to know how many packages that are installed
+ex:-
+pip list 
