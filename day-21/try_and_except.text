@@ -1,0 +1,36 @@
+try and except:
+try:-
+try block lets you to test the block of code for the errors
+except:-
+except block let you  handle the error 
+else:-
+else block is used to execute when there is no error 
+
+example for try and except:-
+try:
+    print(x)
+except:
+    print("the is no data for x so except block is executed")
+
+
+ex2:-
+try:
+    print(x)
+except nameerror:
+    print("except nameerror is executed")
+except:
+    print("the is no data for x so except block is executed")
+
+formatting string:-
+formatting string is introduced in python 3.6 
+it is used to format a select part of string 
+it is defined using f 
+ex:-
+a = "manohar"
+print(f"{a} is a student and he completed his graduation in 2026 ")
+
+ex2:-
+price = 59
+tax = 0.25
+txt = f"The price is {price + (price * tax)} dollars"
+print(txt)
