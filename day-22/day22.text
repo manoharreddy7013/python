@@ -1,0 +1,21 @@
+none:-
+none is aspecial constant in python thet defines a value
+ex:-
+x = none 
+print(x)
+print(type(x))
+
+ex2:-
+result = none 
+if result is none:
+    print("the result is none")
+else:
+    print("the result is not null")
+
+input:-
+input is the data taken from user to give to program 
+ex:-
+name = input("enter name")
+print(f"hello {name}")
+age = input("enter your age")
+print(f"hello{name}your age is {age}")
