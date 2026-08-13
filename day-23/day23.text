@@ -1,0 +1,63 @@
+oops:-
+oops stands for object oriented programming 
+it consists of classes and objects 
+python is an object oriented language which helps to code re_usability 
+class:-
+class is a collection of objects 
+
+object:-
+objects are instances of class(or) real one of classes 
+
+ex:-    
+class            objects 
+
+car              tata, volvo, tayota
+fruits           mango,orange,grapes
+vegetables       carrot,beetroot,tomato 
+
+creating simple class:-
+
+class my_class:
+    x = 10
+
+print(my_class)
+
+creating class with object :-
+class  human:
+    a = 1
+    b = 2
+    c = 3
+    d = 4
+
+h1 = human()
+print(h1.a)
+print(h1.b) 
+print(h1.c) 
+print(h1.d) 
+
+method:-
+function inside a class is said to be method  
+
+example code for class object and method:-
+
+Inside the editor, complete the following steps:
+Create a class called Person
+Add an __init__ method that takes name and age as parameters
+Add a method called greet that prints "Hello, my name is " followed by the name
+Create an object p1 of the class with name "John" and age 36
+Call the greet method on p1
+
+# Create a class
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def greet(self):
+        return f"Hello my name is{self.name}"
+
+
+# Create an object
+p1 = Person("John",36)
+# Call the greet method
+print(p1.greet())
