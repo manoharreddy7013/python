@@ -1,0 +1,44 @@
+property:-
+property are the variables that used in the class
+these properties stores the data and and can be accessed using dot notation
+ex:-
+class Ram:
+    def __init__(self,name,location,role):
+        self.name = name 
+        self.location = location
+        self.role = role 
+
+c1 = Ram("raama","ayodhya","king")
+print(c1.name)
+print(c1.location)
+print(c1.role)
+
+we can update the properties data 
+ex:-
+class Ram:
+    def __init__(self,name,location,role):
+        self.name = name 
+        self.location = location
+        self.role = role 
+
+d1 = Ram("raama","ayodhya","king")
+print(d1.name)
+print(d1.location)
+print(d1.role)
+
+d1.role = "god"
+print(d1.role)
+
+# deleting the property
+# ex:-
+class Ramu:
+    def __init__(self,name,location,role):
+        self.name = name 
+        self.location = location
+        self.role = role 
+
+d1 = Ramu("raama","ayodhya","king")
+del d1.location
+print(d1.name)
+# print(d1.location) this will cause error because location was deleted
+print(d1.role)
