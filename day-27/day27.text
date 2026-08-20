@@ -1,22 +1,26 @@
-method:-
-function inside class is called method 
-it defines the behaviour of an object inside a class 
+inheritance
+in heritance in used to extract properties from parent class 
+parent class:- base class contains properties 
+child class :- it aquires the properties from base class or parent class
+there are many inheritances 
+1.single inheritance 
+2.multiple inheritance 
+3.multi level inhetitance
+4.hierarchial inheritance 
+
+single inheritance:-
+single inheritance consistance of single parent class and single child class 
 ex:-
-class Car:
-    def __init__(self,start,front_wheels,back_wheels,gear):
-        self.start = start
-        self.gear = gear 
-        self.front_wheels = front_wheels 
-        self.back_wheels = back_wheels
-    def Work(self):
-        if self.start == True and self.gear == 1|2|3|4:
-            print(f"car is started the gear is {self.gear} now its moving front and front_wheels {self.front_wheels} can rotate right or left and back wheels{self.back_wheels} can rotate front")
-        elif self.start == True and self.gear == "R":
-            print(f"car is started the gear is {self.gear} now its moving back and front_wheels {self.front_wheels} can rotate right or left and back wheels{self.back_wheels} can rotate back")
-        else:
-            print("car is not started")
+class Human:
+    def __init__(self,name,age,mouth):
+        self.name = name 
+        self.age = age 
+        self.mouth = mouth 
+    def ranjith(self):
+        print(f"hello my name is {self.name} and i am {self.age} andi can spean with my {self.mouth} mouth")
 
-c1 = Car(True,2,2,"R")
-c1.Work()
+class Person(person):
+    pass 
 
-        
+c1 = Person("ranjith",21,1)
+c1.ranjith   
