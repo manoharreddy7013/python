@@ -1,0 +1,26 @@
+encapsulation:-
+encapsulation is used to protect the data inside a class 
+to define a data to be private we use double underscore to say data to be private 
+when we privatize the data the we the data changed directly it defines the data is protected
+ex:-
+class Data:
+    def __init(self,name,age):
+        self.name = name 
+        self.__age = age # private data 
+    
+d1 = Data("manohar",24)
+print(d1.name)
+print(d1.age) # here it will showw error because the data is private 
+
+to access the private data we need to create another one method and then we can access with that method
+class Data:
+    def __init__ (self,name,age):
+        self.name = name 
+        self.__age = age # private data 
+
+    def get_age(self):
+        return self.__age
+    
+d1 = Data("manohar",24)
+print(d1.name)
+print(d1.get_age())
