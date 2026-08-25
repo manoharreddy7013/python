@@ -2,6 +2,7 @@ encapsulation:-
 encapsulation is used to protect the data inside a class 
 to define a data to be private we use double underscore to say data to be private 
 when we privatize the data the we the data changed directly it defines the data is protected
+wrapping will be done to variables, methods wrapping controls the access to the data 
 ex:-
 class Data:
     def __init(self,name,age):
