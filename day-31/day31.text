@@ -1,0 +1,17 @@
+inner class:-
+class iside another class is known as inner class 
+inner class can access properties of outer class and helpful in organising the code more 
+ex:-
+class Outer:
+    def __init__(self):
+        self.name = "manohar" 
+
+    class Inner:
+        def __init__(self):
+            self.name1 = "nenu" 
+
+        def display(self):
+            return self.name1
+
+c1 = Outer()
+c2 = c1.Inner()
