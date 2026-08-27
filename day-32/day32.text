@@ -1,0 +1,27 @@
+file handling:-
+file handling is the important part in web application
+python han may function called creating,read,updating,deleting etc 
+the key function working with python is called open() function
+ex:-
+a = open()
+ 
+python has four methods to perform some operations like 
+
+"r" = opens file for reading if file does not exist then gives error
+"a" = opens file for append the data creates file if does not exist 
+"w" = opens file for writing the data and creates file if does not exist 
+"x" = creates specic file if file exist  provides error 
+
+and additionally
+"t" = for text 
+"b" = for binary data 
+
+
+ex:-
+a = open("day32.text","rt")
+
+the code is code as above data but "r" is for read and "t" is for text these are default values 
+no need to specificy specially
+
+
+
