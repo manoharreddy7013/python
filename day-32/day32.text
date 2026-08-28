@@ -23,5 +23,24 @@ a = open("day32.text","rt")
 the code is code as above data but "r" is for read and "t" is for text these are default values 
 no need to specificy specially
 
+"a" = adds the data new data at the end of the existing file data
+ex:-
+with open("day32.txt","a") as f:
+    f.write("this is the new data adding at the end of the existing file")
+
+ with open("day32.txt","a") as f:
+     print(f.read())
+
+"w" = will overrites the data for the existing  data in file and writes new data
+ with open("day32.txt","w") as f:
+     f.write("this is new data which has been written by replacing old existed data")
+
+with open("day32.txt","a") as f:
+    print(f.read())
 
 
+ "x" = will create new file if file exist throws an error
+ ex:-
+ y = open("day32.txt","x")
+
+ 
