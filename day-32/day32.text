@@ -44,3 +44,15 @@ with open("day32.txt","a") as f:
  y = open("day32.txt","x")
 
  
+delete file :-
+we use remove function in python
+to delete the python file we need to import os
+ex:-
+import os
+os.remove("file name")
+
+we can delete entire folder by using rmdir
+ex:-
+import os 
+os.rmdir("folder name")
+ex:-
