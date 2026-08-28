@@ -36,3 +36,12 @@ with open("C:/Users/manoh/OneDrive/Desktop/python series/day-32/myfiles.txt","w"
 # "x" :- used to create the new file if file exists already then it throws error
 m = open("newfile.txt","x")
 
+# deleting the python file 
+# by importing os and using remove function
+imoprt  os 
+os.remove("file name")
+
+# deleting entire folder 
+# to delete entire folder  we use rmdir() function
+import os 
+os.rmdir("folder name")
